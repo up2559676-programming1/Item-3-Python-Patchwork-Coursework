@@ -53,7 +53,7 @@ def get_colour_inputs() -> list[str]:
 
 def get_shuffle_inputs() -> int:
     while True:
-        num = input("How many shuffle moves should be made to shuffle the tiles?")
+        num = input("How many shuffle moves should be made to shuffle the tiles: ")
         if not num.isdigit():
             print("Invalid input, please enter a whole number")
             continue
